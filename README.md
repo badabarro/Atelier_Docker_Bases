@@ -101,6 +101,26 @@ Vous devez voir une ligne avec l'image `quay.io/ocp-edge-qe/httpd` et le statut 
 
 Vous devez voir la page **« It works! »**.
 
+-------------------------
+LES COMMANDES
+-------------------------
+//Lister les conteneurs
+```
+docker ps -a
+```
+//Stop un conteneur
+```
+docker stop CONTAINER_ID
+```
+//Start un conteneur
+```
+docker start CONTAINER_ID
+```
+//Supprimer un conteneur
+```
+docker rm CONTAINER_ID
+```
+
 ---
 
 ## ✅ Travail demandé
